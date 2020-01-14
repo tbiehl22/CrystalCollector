@@ -1,0 +1,12 @@
+header {
+    background-color: rgba(255, 81, 0, 0.801);
+    color: white;
+    width: 250px;
+    margin: center;
+    padding: 5px;
+
+}
+
+body {
+    background-image: url("../images/crystals.jpg");
+}
