@@ -1,7 +1,7 @@
 header {
     background-color: rgba(255, 81, 0, 0.801);
     color: white;
-    width: 250px;
+    width: 247px;
     margin: center;
     padding: 5px;
 
@@ -10,3 +10,63 @@ header {
 body {
     background-image: url("../images/background.gif");
 }
+
+#gameRules {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: rgb(2, 90, 2);
+    background-color: #ffffff;
+    padding: 5px 7px 50px 10px;
+    width: 325px;
+    font-size: 16px;
+}
+
+#crystal1  {
+    width: 100px;
+    padding: 0px 10px 0px 10px;
+    background-color: #ffffff;
+}
+
+#crystal2  {
+    width: 90px;
+    padding: 5px 10px 5px 10px;
+    background-color: #ffffff;
+}
+
+#crystal3  {
+    width: 90px;
+    padding: 5px 10px 5px 10px;
+    background-color: #ffffff;
+}
+
+#crystal4  {
+    width: 90px;
+    padding: 5px 10px 5px 10px;
+    background-color: #ffffff;
+}
+
+#matchingScore  {
+    background-color: aqua;
+    font-size: 25px;
+    font-weight: bold;
+    width: 125px;
+    padding: 0px 75px 80px 10px;
+}
+
+#winsLosses {
+    background-color: darkmagenta;
+    font-size: 25px;
+    font-weight: bold;
+    width: 100px;
+    padding: 0px 15px 0px 15px;
+    float: inline-start;
+}
+
+#score {
+    background-color: blue;
+    font-size: 25px;
+    font-weight: bold;
+    width: 125px;
+    padding: 0px 75px 80px 10px;
+}
+
