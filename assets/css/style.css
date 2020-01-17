@@ -53,13 +53,13 @@ body {
     padding: 0px 75px 80px 10px;
 }
 
-#winsLosses {
+#winsandLosses {
     background-color: darkmagenta;
     font-size: 25px;
     font-weight: bold;
     width: 100px;
     padding: 0px 15px 0px 15px;
-    float: inline-start;
+    display: inline-block;
 }
 
 #score {
