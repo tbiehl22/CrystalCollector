@@ -7,13 +7,13 @@
     <!-- <link rel="stylesheet" href="assets/css/reset.css"> -->
     <link rel="stylesheet" href="assets/css/style.css">
     
-    <title>CrystalCollector</title>
+    <title>Crystal Collector</title>
 
 </head>
 <body>
 
     <header>
-        <h1>CrystalCollector!</h1>
+        <h1>Crystal Collector Game!</h1>
     </header>
     <br>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -32,29 +32,30 @@
         <p>Each time the game starts, the game will change the values of each crystal.</p>
     </div>
 
-    <div>
-        <p id="matchingScore">
+    <div id="parentDiv">
+        <div>
+            <p id="matchingScore">
             Match this score:
-        </p>
-    </div>
+            </p>
+        </div>
 
-    <div id="winsandLosses">
-        <p id="wins">Wins: 0</p>
-        <p id="losses">Losses: 0</p>
-    </div>
-    
-    <span>
-        <button><img id="crystal1" src="assets/images/red.png" alt="Red Crystal"></button>
-        <button><img id="crystal2" src="assets/images/blue.png" alt="Blue Crystal"></button>
-        <button><img id="crystal3" src="assets/images/orange.png" alt="Orange Crystal"></button>
-        <button><img id="crystal4" src="assets/images/purple.png" alt="Purple Crystal"></button>
-    </span>
-
-    <div>
-        <p id="score">
+        <div>
+            <p id="score">
             Your total score is:
-        </p>
+            </p>
+        </div>
+
+        <div id="winsandLosses">
+            <p id="wins">Wins: 0</p> 
+            <p id="losses">Losses: 0</p>
+        </div>
     </div>
+    <br><br><br><br><br><br><br><br>
+    <button><img id="crystal1" src="assets/images/red.png" alt="Red Crystal"></button>
+    <button><img id="crystal2" src="assets/images/blue.png" alt="Blue Crystal"></button>
+    <button><img id="crystal3" src="assets/images/orange.png" alt="Orange Crystal"></button>
+    <button><img id="crystal4" src="assets/images/purple.png" alt="Purple Crystal"></button>
+    
 
 </body>
 </html>
