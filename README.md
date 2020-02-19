@@ -1,5 +1,7 @@
 <h1>Crystal Collector Game</h1>
 
+Link: https://tbiehl22.github.io/unit-4-game/
+
 A fun and interactive game for web browsers. The game dynamically updates HTML pages with the jQuery library. 
 
 There will be four crystals displayed as buttons on the page.
